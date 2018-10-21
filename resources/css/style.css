@@ -1,0 +1,36 @@
+/* Universal Styles */
+
+body {
+  background-color: black;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  border: 1px solid white;
+}
+
+.logo img {
+  display: flex;
+  margin-left: 10px;
+  color: seashell;
+  height: 50px;
+  border: 1px solid white;
+}
+
+nav span{
+  display: inline-block;
+  margin: 10px;
+  border: 1px solid white;
+}
+
+a {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+}
