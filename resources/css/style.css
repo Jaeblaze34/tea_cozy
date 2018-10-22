@@ -71,7 +71,7 @@ a {
 .menu {
   width: 1000px;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
   border: 1px solid white;
 }
 
@@ -86,13 +86,27 @@ a {
 }
 
 .menu-images {
-  display: inline-block;
-
-
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
 .menu-item img {
+  display: inline-block;
   height: 200px;
   width: 300px;
+  border: 1px solid white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+.menu-item span {
+  display: block;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
   border: 1px solid white;
 }
