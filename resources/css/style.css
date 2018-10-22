@@ -75,7 +75,7 @@ a {
   border: 1px solid white;
 }
 
-.text-content {
+.menu-text {
   width: 1000px;
   text-align: center;
   font-family: Helvetica;
@@ -85,7 +85,13 @@ a {
   border: 1px solid white;
 }
 
-.menu-images img {
+.menu-images {
+  display: inline-block;
+
+
+
+}
+.menu-item img {
   height: 200px;
   width: 300px;
   border: 1px solid white;
