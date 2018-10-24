@@ -72,6 +72,7 @@ a {
   width: 1000px;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 50px;
   border: 1px solid white;
 }
 
@@ -119,6 +120,7 @@ a {
   height: 500px;
   width: 1200px;
   justify-content: space-around;
+  margin-top: 50px;
 }
 
 .title h2 {
@@ -128,7 +130,6 @@ a {
 .title  {
   display: flex;
   justify-content: center;
-
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
