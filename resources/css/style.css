@@ -110,3 +110,63 @@ a {
   opacity: 0.9;
   border: 1px solid white;
 }
+
+/* Locations */
+
+.location-image {
+  display: inline-block;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  justify-content: space-around;
+}
+
+.title h2 {
+  border: 1px solid black;
+}
+
+.title  {
+  display: flex;
+  justify-content: center;
+
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  border: 1px solid black;
+}
+
+.location-container {
+  display: flex;
+  justify-content: center;
+  border: 1px solid white;
+
+}
+
+.location {
+  display: inline-block;
+  justify-content: space-between;
+  width: 300px;
+  height: 300px;
+  opacity: 1;
+  background-color: black;
+  margin-top: 15px;
+  margin-right: 40px;
+  border: 1px solid white;
+}
+
+.location-content {
+  display: block;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+
+}
+
+.location span {
+  display: block;
+  margin-bottom: 40px;
+  border: 1px solid white;
+}
