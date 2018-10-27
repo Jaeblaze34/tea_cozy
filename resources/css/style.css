@@ -115,25 +115,24 @@ a {
 /* Locations */
 
 .location-image {
-  display: inline-block;
+  display: block;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   height: 500px;
   width: 1200px;
-  justify-content: space-around;
   margin-top: 50px;
 }
 
-.title h2 {
-  border: 1px solid black;
-}
-
-.title  {
-  display: flex;
-  justify-content: center;
+.title {
+  align-items: flex-end;
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
   opacity: 0.9;
+  border: 1px solid black;
+}
+
+.title h2 {
+  text-align: center;
   border: 1px solid black;
 }
 
@@ -192,12 +191,12 @@ a {
   border: 1px solid white;
 }
 
-.contact-info h2 {
+.contact-info h5 {
+  margin-top: 40px;
   border: 1px solid white;
 }
 
-.contact-info h5 {
-  margin-top: 40px;
+.contact-info h2 {
   border: 1px solid white;
 }
 
