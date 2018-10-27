@@ -7,10 +7,14 @@ body {
 /* Header */
 
 header {
+  background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 69px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
   border-bottom: 1px solid seashell;
 }
 
@@ -46,17 +50,15 @@ a {
 /* Mission */
 
 .image-content {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   display: flex;
   align-items: center;
-  justify-content: center;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   height: 700px;
   width: 1200px;
 }
 
-
 .image-text {
-  width: 1200px;
+  width: 100%;
   background: black;
   text-align: center;
   font-family: Helvetica;
@@ -70,14 +72,11 @@ a {
 
 .menu {
   width: 1000px;
-  display: flex;
-  flex-wrap: wrap;
   margin-top: 50px;
   border: 1px solid white;
 }
 
-.menu-text {
-  width: 1000px;
+.menu-title {
   text-align: center;
   font-family: Helvetica;
   font-size: 22px;
@@ -93,7 +92,6 @@ a {
 }
 
 .menu-item img {
-  display: inline-block;
   height: 200px;
   width: 300px;
   border: 1px solid white;
