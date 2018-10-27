@@ -171,3 +171,48 @@ a {
   margin-bottom: 40px;
   border: 1px solid white;
 }
+
+/* Contact */
+
+.contact {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  height: 200px;
+  border: 1px solid white;
+}
+
+.contact-info {
+  display: block;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  border: 1px solid white;
+}
+
+.contact-info h2 {
+  border: 1px solid white;
+}
+
+.contact-info h5 {
+  margin-top: 40px;
+  border: 1px solid white;
+}
+
+.contact-info span {
+  border: 1px solid white;
+}
+
+/* Footer */
+
+.footer {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  border: 1px solid white;
+  margin-left: 20px;
+  margin-top: 30px;
+}
