@@ -24,13 +24,11 @@ header {
   margin-left: 10px;
   color: seashell;
   height: 50px;
-  border: 1px solid white;
 }
 
 nav span{
   display: inline-block;
   margin: 10px;
-  border: 1px solid white;
 }
 
 a {
@@ -66,7 +64,6 @@ a {
   font-size: 22px;
   color: seashell;
   opacity: 0.9;
-  border: 1px solid white;
 }
 
 /* Tea Month */
@@ -83,7 +80,6 @@ a {
   font-size: 22px;
   color: seashell;
   opacity: 0.9;
-  border: 1px solid white;
 }
 
 .menu-images {
@@ -108,7 +104,6 @@ a {
   font-size: 22px;
   color: seashell;
   opacity: 0.9;
-  border: 1px solid white;
 }
 
 /* Locations */
@@ -130,20 +125,16 @@ a {
   font-size: 22px;
   color: seashell;
   opacity: 0.9;
-  border: 1px solid black;
 }
 
 .title h2 {
   margin-top: 45px;
   margin-bottom: 0px;
-  border: 1px solid black;
 }
 
 .location-container {
   display: flex;
   justify-content: center;
-  border: 1px solid white;
-
 }
 
 .location {
@@ -154,7 +145,6 @@ a {
   background-color: black;
   margin-top: 15px;
   margin-right: 40px;
-  border: 1px solid white;
 }
 
 .location-content {
@@ -164,13 +154,11 @@ a {
   font-size: 22px;
   color: seashell;
   opacity: 0.9;
-
 }
 
 .location span {
   display: block;
   margin-bottom: 40px;
-  border: 1px solid white;
 }
 
 /* Contact */
@@ -180,7 +168,6 @@ a {
   justify-content: center;
   width: 1000px;
   height: 200px;
-  border: 1px solid white;
 }
 
 .contact-info {
@@ -190,20 +177,10 @@ a {
   font-size: 22px;
   color: seashell;
   opacity: 0.9;
-  border: 1px solid white;
 }
 
 .contact-info h5 {
   margin-top: 40px;
-  border: 1px solid white;
-}
-
-.contact-info h2 {
-  border: 1px solid white;
-}
-
-.contact-info span {
-  border: 1px solid white;
 }
 
 /* Footer */
@@ -213,7 +190,6 @@ a {
   font-size: 22px;
   color: seashell;
   opacity: 0.9;
-  border: 1px solid white;
   margin-left: 20px;
   margin-top: 30px;
 }
